@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+   
+}
+.Main-block-for-item {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Wrap-for-item {
+    width: 70%;
+    height: 100vh;
+}
+.Item-wrap-naming {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+.Item-wrap-naming p {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.Item-wrap-main {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+}
+.Another-item-list {
+    width: 25%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+.Another-item_1 {
+    width: 70%;
+    height: 25vh;
+    background-image: url(./img/item_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Another-item_2 {
+    width: 70%;
+    height: 25vh;
+    background-image: url(./img/item_3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Another-item_3 {
+    width: 70%;
+    height: 25vh;
+    background-image: url(./img/item_4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Main-in-item {
+    width: 75%;
+    height: 90vh;
+
+    display: flex;
+    flex-direction: column;
+}
+.Wrap-top-main {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+}
+.Wrap-bottom-main {
+    width: 100%;
+    height: 40vh;
+}
+.Img-in-item {
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/item-1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Img-in-item h1 {
+    font-size: 5em;
+    color: white;
+}
+.Description-in-item {
+    width: 50%;
+    height: 50vh;
+}
+.Discription-wrap-naming {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+.Discription-wrap-main {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+}
+.Discription-wrap-left {
+    width: 50%;
+    height: 30vh;
+}
+.Wrap-device-type {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+.Wrap-unit-weight {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+.Wrap-unit-size {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+.Discription-wrap-right {
+    width: 50%;
+    height: 30vh;
+}
+.Description-wrap-conditions {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+.Description-wrap-conditions a {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    transition: 0.3s ease;
+}
+.Description-wrap-conditions a:hover {
+    color: rgb(104, 104, 235);
+}
+.Wrap-Number-in-box {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+.Wrap-warranty-period {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+.Moredescription-wrap-naming {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: end;
+}
+.Moredescription-wrap-naming P {
+    font-size: 1.5em;
+}
+.Moredescription-wrap-text {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+   
+}
+.Moredescription-wrap-text p {
+    text-align: justify;
+}
+@media only screen and (max-width: 768px) {
+    .Another-item-list {
+        display: none;
+    }
+    .Wrap-top-main {
+        height: 100vh;
+        flex-direction: column;
+    }
+    .Item-wrap-naming {
+        height: 25vh;
+    }
+    .Img-in-item {
+        background-size: 100%;
+        width: 26vh;
+        height: 35vh;
+    }
+    .Description-in-item {
+        width: 29.5vh;
+    }
+    .Wrap-bottom-main {
+        width: 25vh;
+    }
+}
